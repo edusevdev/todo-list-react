@@ -1,0 +1,90 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: azure;
+
+  --clr-background: #181717;
+  --clr-task-card: hsl(235, 24%, 19%);
+}
+
+body {
+  background-color: #181717;
+}
+
+.todo-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.task-container, .task-input-container {
+  background-color: var(--clr-task-card);
+  width: 80%;
+  margin: 0 auto;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.task-input-container {
+  border-radius: 0.5rem;
+}
+
+.task-container label {
+  margin-left: 1.5em;
+}
+  
+.task-container:first-child {
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.task-container:not(:last-child) {
+  border-top: solid var(--clr-background);
+}
+
+.task-container:last-child{
+  border-radius: 0 0 0.5rem 0.5rem;
+  border-top: solid var(--clr-background);
+}
+
+.task-container:only-child {
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.task-input-container {
+  margin-bottom: 25px;
+}
+
+.task-input-container input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: large;
+  color: white;
+  margin-left: 1em;
+}
+
+.task-input-container .playlist-add-icon:hover {
+  color: grey;
+}
+
+.task-container .icon {
+  color: var(--clr-background);
+  margin-left: auto;
+}
+
+.task-container .icon:hover{
+  color: white;
+}
+
+.icon-group {
+  margin-left: auto;
+}
+
+.editing-task {
+  margin-left: 1.5em;
+  
+}
