@@ -1,6 +1,9 @@
-### TO DO
+### Work In Progress
 
 - Tests unitarios utilizando React Testing Library y Jest.
+
+### TO DO
+
 - Tests de integración utilizando Cypress
 
 ### Done
@@ -16,5 +19,3 @@
 - Habilitar la edición de tareas.
 - Agregar un popup de notificación si la tarea ya está incluida. Usar [react-hot-toast](https://react-hot-toast.com/) para esto.
 - Agregar un popup de notificación si se intenta agregar una tarea sin texto en el campo de entrada.
-
-
