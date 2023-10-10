@@ -36,7 +36,7 @@ export const TaskInput = ({ addTask }) => {
   return (
     <>
       <div className="task-input-container">
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} data-testid="task-input-form">
           <PlaylistAddIcon className="playlist-add-icon" onClick={handleAddTask} data-testid="task-input-add-icon"/>
           <input
             type="text"
