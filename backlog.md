@@ -1,7 +1,5 @@
 ### Work In Progress
 
- - Configurar eslint y prettier
-
 ### TO DO
 
 - Configurar Husky
@@ -21,3 +19,4 @@
 - Agregar un popup de notificación si se intenta agregar una tarea sin texto en el campo de entrada.
 - Tests unitarios utilizando React Testing Library y Jest
 - Tests de integración utilizando Cypress
+- Configurar eslint y prettier
