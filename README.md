@@ -57,4 +57,3 @@ Durante esta formación se deberán compaginar los diferentes cursos con el desa
 
 - **Repositorio de código**: [https://repo.plexus.services/-/ide/project/borja.pazrodriguez/eduardo.sevillanoromero-react](https://repo.plexus.services/-/ide/project/borja.pazrodriguez/eduardo.sevillanoromero-react)
 - **Credenciales de Udemy**: (por chat)
-
