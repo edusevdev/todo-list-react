@@ -1,5 +1,4 @@
-import React from "react"
-import { useState } from "react"
+import React, { useState } from "react"
 import { TaskInput } from "./TaskInput"
 import TaskList from "./TaskList"
 import toast, { Toaster } from "react-hot-toast"
@@ -12,7 +11,7 @@ export const TodoList = ({ title }) => {
 
   const addTask = (name) => {
     if (!taskList.some((item) => item.name === name)) {
-      const task = { name: name }
+      const task = { name }
       const updatedList = [...taskList, task]
       setTaskList(updatedList)
     } else {
