@@ -2,7 +2,7 @@
 
 ### TO DO
 
-- Configurar Husky
+- Configurar Husky --> Adicionalmente se ha configurado junto con lint-staged para que los scripts de eslint solo escaneen los archivos stageados.
 
 ### Done
 
